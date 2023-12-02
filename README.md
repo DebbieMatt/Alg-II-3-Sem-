@@ -1,38 +1,41 @@
-# Debbie Matt
-PERFIL PROSISSIONAL
-👩‍🎓 Eng. da Computação
-👩‍💻 Iniciante em progração
-🎮 🧩 Gamer e Geek
-📚 Escritora de  trabalhos academicos
-Desenvolvedora de Web Sites WordPress
+# Exercícios de Algoritmo e estrutura de Dados II em C 
 
-<div align="center">
-  <a href="https://github.com/debbiematt">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=debbiematt&show_icons=true&theme=black&include_all_commits=true&count_private=true"/>
-</div>
+## Descrição
 
-##
+![GitHub language count](https://img.shields.io/static/v1?label=C&message=framework&color=blue&style=for-the-badge&logo=C)
+![Status](https://img.shields.io/static/v1?label=STATUS&message=ANDAMENTO&color=GREEN&style=for-the-badge)
 
-<div>
-  <a href="https://twitter.com/DebyMatC?t=l2mXYNoP9zgk4MNdRECGCA&s=08" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"target="_blank"></a>
-  <a href="https://www.instagram.com/deboramateusdec/"target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"target="_blank"></a>
-  <a href="https://www.linkedin.com/in/d%C3%A9bora-mateus-camargo-a21031190" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"target="_blank"></a>
- <a href="https://www.debbymatt.com" target="_blank"><img src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white"target="_blank"></a>
-  <a href="https://debbymatt.tumblr.com/" target="_blank"><img src="https://img.shields.io/badge/Tumblr-%2336465D.svg?&style=for-the-badge&logo=Tumblr&logoColor=white"target="_blank"></a>
- 
- ### Tecnologias que utilizo:
- 
- <div style="display: inline_block" >
-    <img aling="center" alt="SqlServer" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white " />
-    <img aling="center" alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-    <img aling="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-    <img aling="center" alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-    <img aling="center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-    <img aling="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-    <img aling="center" alt="Kotlin" src= "https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"/>
-    <img aling="center" alt="C" src= "https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-    <img aling="center" alt="C++" src= "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-    <img aling="center" alt="Java" src= "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+> Resolução em C dos exercícios da Disciplina de Algoritmo e estrutura de Dados II
 
- </div>
- 
+### Conteúdo
+
+Arquivos com seus respectivos desafios:
+
+1. [PONTEIROS](ALG_II/PONTEIROS).
+* [UNID. 01 ATV 00](ALG_II/PONTEIROS/UNID. 01 ATV 00.c)
+  
+  Escreva, usando ponteiros, uma função que recebe duas variáveis do tipo inteiro: uma representa a idade de uma pessoa, enquanto a outra representa o sexo. A função deve atualizar o valor da variável que representa a idade para o tempo que falta para a pessoa se aposentar, considerando as seguintes regras hipotéticas:
+
+* mulheres podem se aposentar aos 60 anos;
+* homens podem se aposentar aos 65 anos;
+
+
+## 📫 Contribuindo para a manutenção
+
+Para contribuir com projeto final e nos auxiliar a continuar desenvolvendo melhor, aprimorando e torna-lo mais eficientes, siga estas etapas:
+
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## 😄 Seja um dos contribuidores
+
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
