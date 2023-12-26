@@ -14,11 +14,23 @@ Arquivos com seus respectivos desafios:
 1. [Descrição](#descrição)
 2. [Conteúdo](#conteúdo)
 3. [Saiba que](#saiba-que)
-4. [Enunciados](#enunciados)
+4. [Executando via Terminal](#exec-term)
+5. [Enunciados](#enunciados)
    1. [PONTEIROS](#PONTEIROS)
   
 ## Saiba que
+
 Como são resoluções para um curso de Lógica de Programação (nível inicante), não foram utilizadas as famosas boas práticas de programação, pois o objetivo é justamente ensinar os fundamentos de lógica, sem adicionar muita complexidade.
+
+## Executando via Terminal
+
+Para compilar um programa no LINUX você deve primeiramente abrir um janela de `console/terminal`. 
+
+Se você estiver trabalhando em "modo texto", você já está numa janela de console. Caso esteja em um ambiente gráfico, então deve ativar a janela de console clicando no ícone correspondente.
+
+Isto fará surgir uma janela semelhante a esta:
+
+![Print_console]()
 
 ## Enunciados
 ### PONTEIROS
