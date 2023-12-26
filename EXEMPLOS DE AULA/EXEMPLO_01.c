@@ -1,3 +1,9 @@
+/*
+Executar pelo terminal: g++ -o EXEMPLO_01 EXEMPLO_01.c
+Depois: ./EXEMPLO_01
+*/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -18,7 +24,7 @@ int main(){
     recebePonteiro (&a); // correto
     recebePonteiro (aPtr); // correto
     
-    recebePonteiro (&aPtr); // errado
+    // recebePonteiro (&aPtr); // errado
     
     printf("Valor de a: %d \n", a);
 
