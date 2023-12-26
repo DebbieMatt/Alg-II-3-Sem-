@@ -30,7 +30,21 @@ Se você estiver trabalhando em "modo texto", você já está numa janela de con
 
 Isto fará surgir uma janela semelhante a esta:
 
-![Print_console]()
+![Print_console](https://github.com/DebbieMatt/Alg_II/blob/04e3099f60c3bd4562908e77862adee6bca038fb/Print_console.png)
+
+A seguir, vá ao diretório onde você gravou o seu programa, usando o comando: `cd`.
+
+Supondo que o nome de seu programa seja `teste.c`, para compilá-lo digite:
+
+```
+ g++ -o teste teste.c
+```
+
+Caso a compliação tenha sido executada com sucesso, você poderá executar seu programa, digitando:
+
+```
+ ./teste
+```
 
 ## Enunciados
 ### PONTEIROS
