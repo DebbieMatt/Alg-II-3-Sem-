@@ -1,3 +1,10 @@
+/*
+Executar pelo terminal: g++ -o UNID.01_ATV_00 UNID.01_ATV_00.c
+Depois: ./UNID.00_ATV_00
+*/
+
+// EM CORREÇÃO !
+
 #include <stdlib.h>
 #include <stdio.h>
 
