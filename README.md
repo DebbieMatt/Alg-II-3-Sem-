@@ -61,6 +61,18 @@ O CuiaBank é um banco digital criado por estudantes da UFMT, incluindo você, q
 
 A cada tentativa de saque, deve ser verificado se o valor a ser sacado é inferior ou igual à soma do saldo da conta com o saldo especial. Se a operação for efetivada, a função deve alterar os seguintes valores: saldo em conta, saldo especial utilizado (ambos armazenados na função principal). Ao final das operações, escreva na tela o extrato bancário. 
 
+#### [Exercicio 03](PONTEIROS/UNID.%2001%20ATV%2003.c)
+
+Maria Gláucia trabalha no departamento de recursos humanos de uma empresa que aumentará o salário dos seus funcionários. O programa lida com as seguintes informações:
+
+* código do departamento, representado por um número inteiro de 1 a 5;
+* salário do funcionário, representado por um número real;
+
+Para funcionários dos departamentos 1 e 2, o aumento será de 22%. Para os funcionários do departamento 3, o aumento será de 17%. Para os funcionários do departamento 4 e 5, o aumento de salário será de 10%.
+
+Considerando as informações anteriores, implemente um programa com uma função que altera o novo salário dos funcionários, considerando o salário atual, o reajuste e o departamento de atuação. 
+
+Ao final, imprima os valores de salário reajustados.
 
 ## 📫 Contribuindo para a manutenção
 
