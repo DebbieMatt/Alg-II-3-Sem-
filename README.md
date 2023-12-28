@@ -75,7 +75,7 @@ Considerando as informações anteriores, implemente um programa com uma funçã
 
 Ao final, imprima os valores de salário reajustados.
 
-#### [Exercicio 04]()
+#### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/33f1c7b99820b89b33fddae364de993d8b66c224/PONTEIROS/UNID.01_ATV_04.c)
 
 Crie um programa contendo dois vetores (A e B), de tamanho igual, cujos valores foram lidos do teclado. Em seguida, implemente uma função que recebe esses vetores e troque os valores do vetor A com os valores do vetor B. Use aritmética de ponteiros para efetuar essas operações. 
 
