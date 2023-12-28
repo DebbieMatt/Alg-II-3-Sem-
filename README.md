@@ -75,6 +75,10 @@ Considerando as informações anteriores, implemente um programa com uma funçã
 
 Ao final, imprima os valores de salário reajustados.
 
+#### [Exercicio 04]()
+
+Crie um programa contendo dois vetores (A e B), de tamanho igual, cujos valores foram lidos do teclado. Em seguida, implemente uma função que recebe esses vetores e troque os valores do vetor A com os valores do vetor B. Use aritmética de ponteiros para efetuar essas operações. 
+
 ## 📫 Contribuindo para a manutenção
 
 Para contribuir com projeto final e nos auxiliar a continuar desenvolvendo melhor, aprimorando e torna-lo mais eficientes, siga estas etapas:
