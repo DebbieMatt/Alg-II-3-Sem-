@@ -45,7 +45,7 @@ Caso a compliação tenha sido executada com sucesso, você poderá executar seu
 ## Enunciados
 ### PONTEIROS
 
-#### [Exercicio 00](https://github.com/DebbieMatt/Alg_II/blob/e85afc49fe301cf4e549e393bf1d2d4e314294ce/PONTEIROS/UNID.01_ATV_00.c)
+#### [Exercicio 00](https://github.com/DebbieMatt/Alg_II/blob/d11e714ef2b1e93b43a0710c4474ff921a8a3fa7/PONTEIROS/UNID.01_ATV_00.c)
 
 Escreva, usando ponteiros, uma função que recebe duas variáveis do tipo inteiro: uma representa a idade de uma pessoa, enquanto a outra representa o sexo. A função deve atualizar o valor da variável que representa a idade para o tempo que falta para a pessoa se aposentar, considerando as seguintes regras hipotéticas: 
 
