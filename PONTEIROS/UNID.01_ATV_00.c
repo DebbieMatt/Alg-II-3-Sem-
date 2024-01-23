@@ -32,7 +32,9 @@ void genero (int *sexo, int *idade){
     }
 }
 
-int main(int sex, int id){
+int main(){
+
+    int sex, id;
     
     printf("Quantos anos vc tem ? ");
     scanf("%d", &id);
