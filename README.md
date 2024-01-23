@@ -77,7 +77,49 @@ Ao final, imprima os valores de salário reajustados.
 
 #### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/2b809813961e2f9929de2947287335964f5f299c/PONTEIROS/UNID.01_ATV_04.c)
 
-Crie um programa contendo dois vetores (A e B), de tamanho igual, cujos valores foram lidos do teclado. Em seguida, implemente uma função que recebe esses vetores e troque os valores do vetor A com os valores do vetor B. Use aritmética de ponteiros para efetuar essas operações. 
+Crie um programa contendo dois vetores (A e B), de tamanho igual, cujos valores foram lidos do teclado. Em seguida, implemente uma função que recebe esses vetores e troque os valores do vetor A com os valores do vetor B. Use aritmética de ponteiros para efetuar essas operações.
+
+#### [Exercicio 05]()
+
+Crie um programa contendo três vetores (A, B e C), de tamanho igual. Para os vetores A e B, os valores devem ser lidos do teclado. 
+
+Em seguida, implemente uma função que recebe os três vetores. Cada posição do vetor C deve ser preenchido com o maior valor do vetor A ou B naquela mesma posição.
+
+Use aritmética de ponteiros para efetuar essas operações. 
+
+#### [Exercicio 06]()
+
+Escreva um programa com um vetor de tamanho N (informado pelo usuário via teclado), com dados de tipo inteiro ou ponto flutuante (a seu critério), também informados pelo usuário final via teclado. 
+
+Em seguida, implemente uma função que receba esse vetor e crie uma matriz de tamanho N por N. A primeira coluna da matriz deve conter os valores originais do vetor. As colunas restantes devem conter o resultado da multiplicação por 2, 3… n-1.
+
+Exemplo:
+
+Considere o seguinte vetor de entrada:
+
+```
+1 2 3 4 5
+```
+
+Considere a matriz de saída:
+
+``````
+1 	2	3	4	5
+2	4	6	8	10
+3	6	9	12	15
+4	8	12	16	20
+5	10	15	20	25
+``````
+
+Elabore as operações usando exclusivamente aritmética de ponteiros para percorrer o vetor e a matriz.
+
+#### [Exercicio 07]()
+
+Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser escolhido por você. Usando exclusivamente a aritmética de ponteiros, o programa deve percorrer e calcular o produto da diagonal principal, bem como produto da diagonal secundária.
+
+#### [Exercicio 08]()
+
+
 
 ## 📫 Contribuindo para a manutenção
 
