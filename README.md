@@ -16,7 +16,6 @@ Arquivos com seus respectivos desafios:
 3. [Saiba que](#saiba-que)
 4. [Executando via Terminal](#exec-term)
 5. [Enunciados](#enunciados)
-   1. [PONTEIROS](#PONTEIROS)
   
 ## Saiba que
 
@@ -43,7 +42,6 @@ Caso a compliação tenha sido executada com sucesso, você poderá executar seu
 ```
 
 ## Enunciados
-### PONTEIROS
 
 ### Passagem de Parâmetros, Alocação de Memória e Ponteiros
 
