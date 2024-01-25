@@ -1,16 +1,21 @@
+
 #include <stdlib.h>
 #include <stdio.h>
 
 void inverter(int *a, int *b, int *c){
-    
-    for (int i = 0; i < 4; i++){
-        
-        if (a < b){
-            *(c + i) = *( a + i);
-            
-        }else{
-            *(c + i) = *( b + i);
-            
+
+    for (int i = 0; i < 2; i++){
+
+        if (*(a + i) > *(b + i)){
+            *(c + i) = *(a + i);
+
+        }
+        else if (*(b + i) == *(a + i)){
+            *(c + i) = *(a + i);
+
+        }
+        else{
+            *(c + i) = *(b + i);
         }
     }
 }
