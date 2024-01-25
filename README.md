@@ -125,7 +125,7 @@ Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser esco
 
 > 
 
-#### [Exercicio 08]()
+#### [Exercicio 08](https://github.com/DebbieMatt/Alg_II/blob/662120258cea1293fead3882e9d2abb8b5e89c20/PONTEIROS/UNID.01_ATV_08.c)
 
 Analise o fragmento de código a seguir:
 
