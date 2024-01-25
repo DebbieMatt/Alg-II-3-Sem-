@@ -95,7 +95,7 @@ Em seguida, implemente uma função que recebe os três vetores. Cada posição 
 
 Use aritmética de ponteiros para efetuar essas operações. 
 
-#### [Exercicio 06](https://github.com/DebbieMatt/Alg_II/blob/39f32765d40cb187ec667dd37d816476fd642d7f/PONTEIROS/UNID.01_ATV_06.c)
+#### [Exercicio 06](https://github.com/DebbieMatt/Alg_II/blob/312395a5ed3b3fcca30d546a12d83213342a58d2/PONTEIROS/UNID.01_ATV_06.c)
 
 Escreva um programa com um vetor de tamanho N (informado pelo usuário via teclado), com dados de tipo inteiro ou ponto flutuante (a seu critério), também informados pelo usuário final via teclado. 
 
@@ -119,7 +119,7 @@ Considere a matriz de saída:
 
 Elabore as operações usando exclusivamente aritmética de ponteiros para percorrer o vetor e a matriz.
 
-#### [Exercicio 07]()
+#### [Exercicio 07](https://github.com/DebbieMatt/Alg_II/blob/312395a5ed3b3fcca30d546a12d83213342a58d2/PONTEIROS/UNID.01_ATV_07.c)
 
 Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser escolhido por você. Usando exclusivamente a aritmética de ponteiros, o programa deve percorrer e calcular o produto da diagonal principal, bem como produto da diagonal secundária.
 
@@ -129,7 +129,42 @@ Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser esco
 
 #### [Exercicio 08]()
 
+Analise o fragmento de código a seguir:
 
+int a = 17;
+int *ptr1 = &a;
+void **ptr2 = (void **) &ptr1;
+Qual operação pode ser feita para, a partir de ptr2, se chegar ao valor da variável a?
+
+#### [Exercicio 09]()
+
+Roberval é um estudante de Controle e Automação que deseja criar um sistema controle de luzes de uma casa. Para começar, ele pretende criar procedimentos para ligar e desligar as luzes.
+
+Um terceiro procedimento, que simula um interruptor, recebe os endereços de memória dos procedimentos ligar e desligar. Se a lâmpada estava desligada, o procedimento deve ligá-la quando acionada. Da mesma forma, se ela estivesse desligada, o procedimento deveria desligar a luz.
+
+O procedimento interruptor deve acionar os anteriores usando ponteiros.
+
+#### [Exercicio 10]()
+
+João implementou dois procedimentos em seu programa, um para verificar se um número é divisível por 3, outro para multiplicar o valor recebido por 10. Ambos os procedimentos recebem um número inteiro com parâmetro e não retornam valores, apenas exibem o resultado na tela.
+
+João deseja criar um vetor com ponteiros para esses procedimentos para, em seguida, passar o vetor como parâmetro para um procedimento especial. Este último procedimento acionará os procedimentos recebidos como parâmetro para um conjunto de números inteiros determinados localmente.
+
+#### [Exercicio 11]()
+
+Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conjunto de funções/procedimentos para facilitar a criação de vetores alocados dinamicamente na memória, oferecendo recursos que possibilitem:
+
+* a criação de um novo vetor;
+
+* a inserção de valores no vetor, lidos do teclado;
+
+* a impressão do vetor;
+
+* a mudança da capacidade de armazenamento do vetor, para mais ou para menos;
+
+* a liberação do espaço de memória ocupado pelo vetor;
+
+#### [Exercicio 12]()
 
 ## 📫 Contribuindo para a manutenção
 
