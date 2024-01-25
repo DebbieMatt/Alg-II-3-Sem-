@@ -45,6 +45,10 @@ Caso a compliação tenha sido executada com sucesso, você poderá executar seu
 ## Enunciados
 ### PONTEIROS
 
+### Passagem de Parâmetros, Alocação de Memória e Ponteiros
+
+> Tópicos abordados: Passagem de parâmetros para funções, princípios da alocação de memória, conceito de ponteiros, utilização de ponteiros na passagem de parâmetro para funções e manipulação de ponteiros.
+
 #### [Exercicio 00](https://github.com/DebbieMatt/Alg_II/blob/45bd30dbb30efb010adcd75ca5cd8e896f055c2d/PONTEIROS/UNID.01_ATV_00.c)
 
 Escreva, usando ponteiros, uma função que recebe duas variáveis do tipo inteiro: uma representa a idade de uma pessoa, enquanto a outra representa o sexo. A função deve atualizar o valor da variável que representa a idade para o tempo que falta para a pessoa se aposentar, considerando as seguintes regras hipotéticas: 
@@ -75,11 +79,15 @@ Considerando as informações anteriores, implemente um programa com uma funçã
 
 Ao final, imprima os valores de salário reajustados.
 
+### Aritmética de Ponteiros, Vetores e Matrizes
+
+> Aritmética de ponteiros (operações de adição e subtração com endereços de memória), acessar valores em vetores e matrizes com ponteiros.
+
 #### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/2b809813961e2f9929de2947287335964f5f299c/PONTEIROS/UNID.01_ATV_04.c)
 
 Crie um programa contendo dois vetores (A e B), de tamanho igual, cujos valores foram lidos do teclado. Em seguida, implemente uma função que recebe esses vetores e troque os valores do vetor A com os valores do vetor B. Use aritmética de ponteiros para efetuar essas operações.
 
-#### [Exercicio 05](https://github.com/DebbieMatt/Alg_II/blob/6dcdfd8d708a1f3901d246b0a582fce8e29231a3/PONTEIROS/UNID.01_ATV_05.c)
+#### [Exercicio 05](https://github.com/DebbieMatt/Alg_II/blob/4aa95ef573439409a5ef5688460644b4e3c27708/PONTEIROS/UNID.01_ATV_05.c)
 
 Crie um programa contendo três vetores (A, B e C), de tamanho igual. Para os vetores A e B, os valores devem ser lidos do teclado. 
 
@@ -97,9 +105,7 @@ Exemplo:
 
 Considere o seguinte vetor de entrada:
 
-```
-1 2 3 4 5
-```
+> 1 2 3 4 5
 
 Considere a matriz de saída:
 
@@ -116,6 +122,10 @@ Elabore as operações usando exclusivamente aritmética de ponteiros para perco
 #### [Exercicio 07]()
 
 Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser escolhido por você. Usando exclusivamente a aritmética de ponteiros, o programa deve percorrer e calcular o produto da diagonal principal, bem como produto da diagonal secundária.
+
+### Ponteiros Genéricos (void) e Múltiplos, Malloc e Calloc, Alocação Dinâmica de Memória: Vetores e Matrizes
+
+> 
 
 #### [Exercicio 08]()
 
