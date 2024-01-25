@@ -129,9 +129,12 @@ Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser esco
 
 Analise o fragmento de código a seguir:
 
+```
 int a = 17;
 int *ptr1 = &a;
 void **ptr2 = (void **) &ptr1;
+```
+
 Qual operação pode ser feita para, a partir de ptr2, se chegar ao valor da variável a?
 
 #### [Exercicio 09]()
