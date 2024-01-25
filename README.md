@@ -95,7 +95,7 @@ Em seguida, implemente uma função que recebe os três vetores. Cada posição 
 
 Use aritmética de ponteiros para efetuar essas operações. 
 
-#### [Exercicio 06]()
+#### [Exercicio 06](https://github.com/DebbieMatt/Alg_II/blob/39f32765d40cb187ec667dd37d816476fd642d7f/PONTEIROS/UNID.01_ATV_06.c)
 
 Escreva um programa com um vetor de tamanho N (informado pelo usuário via teclado), com dados de tipo inteiro ou ponto flutuante (a seu critério), também informados pelo usuário final via teclado. 
 
