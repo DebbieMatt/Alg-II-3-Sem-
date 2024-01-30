@@ -167,6 +167,20 @@ Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conju
 
 #### [Exercicio 12]()
 
+Crie um programa em C que utilize uma struct para armazenar informações sobre um produto em um sistema de inventário. 
+
+A struct deve conter o nome do produto, preço e quantidade em estoque. 
+
+O programa deve permitir ao usuário adicionar novos produtos ao sistema, atualizar a quantidade em estoque e o preço, listar todos os produtos com suas informações ou excluir um produto a partir do índice. 
+
+Além disso, implemente uma função para calcular o valor total em estoque de um produto, multiplicando o preço pela quantidade disponível.
+
+#### [Exercicio 13]()
+
+#### [Exercicio 14]()
+
+#### [Exercicio 15]()
+
 ## 📫 Contribuindo para a manutenção
 
 Para contribuir com projeto final e nos auxiliar a continuar desenvolvendo melhor, aprimorando e torna-lo mais eficientes, siga estas etapas:
