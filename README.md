@@ -195,7 +195,7 @@ Para o departamento, devem ser armazenados o nome e o código. Para o funcionár
 
 O usuário deve ter a possibilidade cadastrar, listar e atualizar tanto os departamentos quanto os dados dos funcionários.
 
-#### [Exercicio 15 (POR FAZER)]()
+#### [Exercicio 15 (INCOMPLETO)](https://github.com/DebbieMatt/Alg_II/blob/5b6285d2fc05fbfc88f86bf25694278c2d728d7f/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_04.c)
 
 Estudantes da Faculdade de Engenharia estão desenvolvendo um programa em C para um sistema de automação residencial que integra diferentes tipos de sensores: temperatura (float), luminosidade (float) e movimento (int ou bool), cada um medindo um aspecto específico do ambiente. Implemente uma estrutura de dados eficiente em termos de memória para armazenar as informações desses sensores.
 
