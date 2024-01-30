@@ -30,8 +30,6 @@ void cadastro(funcionario *Est, departamento d[], int *pos_dep)
 {
     printf("Digite o nome do funcionario: ");
     scanf("%s[\n]12", Est->nome);
-    // fgets(Est->nome, sizeof(Est>nome), stdin);
-    // gets(Est->nome);
 
     printf("Digite o codigo do funcionario: ");
     scanf("%d", &Est->codigo);
@@ -54,7 +52,7 @@ void cadastro(funcionario *Est, departamento d[], int *pos_dep)
             printf("departamentos maximo");
         }
         break;
-    case 2: // anexa a um ja criado --- RESOLVER DEPOIS
+    case 2:
         printf("Qual a posicao do vetor do departamento ja criado? ");
         int i;
         scanf("%d", &i);
