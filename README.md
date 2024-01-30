@@ -137,7 +137,7 @@ void **ptr2 = (void **) &ptr1;
 
 Qual operação pode ser feita para, a partir de ptr2, se chegar ao valor da variável a?
 
-#### [Exercicio 09]()
+#### [Exercicio 09 (POR FAZER)]()
 
 Roberval é um estudante de Controle e Automação que deseja criar um sistema controle de luzes de uma casa. Para começar, ele pretende criar procedimentos para ligar e desligar as luzes.
 
@@ -145,13 +145,13 @@ Um terceiro procedimento, que simula um interruptor, recebe os endereços de mem
 
 O procedimento interruptor deve acionar os anteriores usando ponteiros.
 
-#### [Exercicio 10]()
+#### [Exercicio 10 (POR FAZER)]()
 
 João implementou dois procedimentos em seu programa, um para verificar se um número é divisível por 3, outro para multiplicar o valor recebido por 10. Ambos os procedimentos recebem um número inteiro com parâmetro e não retornam valores, apenas exibem o resultado na tela.
 
 João deseja criar um vetor com ponteiros para esses procedimentos para, em seguida, passar o vetor como parâmetro para um procedimento especial. Este último procedimento acionará os procedimentos recebidos como parâmetro para um conjunto de números inteiros determinados localmente.
 
-#### [Exercicio 11]()
+#### [Exercicio 11 (POR FAZER)]()
 
 Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conjunto de funções/procedimentos para facilitar a criação de vetores alocados dinamicamente na memória, oferecendo recursos que possibilitem:
 
@@ -175,7 +175,7 @@ O programa deve permitir ao usuário adicionar novos produtos ao sistema, atuali
 
 Além disso, implemente uma função para calcular o valor total em estoque de um produto, multiplicando o preço pela quantidade disponível.
 
-#### [Exercicio 13]()
+#### [Exercicio 13 (POR FAZER)]()
 
 Elabore um programa em C que utilize uma struct para gerenciar informações de veículos em um estacionamento. 
 
@@ -185,9 +185,19 @@ O programa deve permitir ao usuário registrar a entrada de veículos, calcular 
 
 Além disso, inclua uma funcionalidade para listar todos os veículos atualmente presentes no estacionamento, exibindo suas informações.
 
-#### [Exercicio 14]()
+#### [Exercicio 14 (POR FAZER)]()
 
-#### [Exercicio 15]()
+Imagine que você foi contratado(a) para desenvolver um sistema que irá gerenciar informações de funcionários e departamentos de uma empresa, onde um funcionário está associado a um departamento específico. Quando o departamento é atualizado, a mudança deve refletir em todos os funcionários associados a ele.
+
+Para o departamento, devem ser armazenados o nome e o código. Para o funcionário, deve-se armazenar nome, código e o departamento ao qual está vinculado. 
+
+O usuário deve ter a possibilidade cadastrar, listar e atualizar tanto os departamentos quanto os dados dos funcionários.
+
+#### [Exercicio 15 (POR FAZER)]()
+
+Estudantes da Faculdade de Engenharia estão desenvolvendo um programa em C para um sistema de automação residencial que integra diferentes tipos de sensores: temperatura (float), luminosidade (float) e movimento (int ou bool), cada um medindo um aspecto específico do ambiente. Implemente uma estrutura de dados eficiente em termos de memória para armazenar as informações desses sensores.
+
+O programa deve permitir o cadastro de novos sensores, dando ao usuário a opção de escolher o tipo de sensor e inserir os dados correspondentes. Além disso, o programa deve ser capaz de exibir informações de todos os sensores cadastrados, com descrições apropriadas, como "Temperatura: 23.5°C", "Luminosidade: 75.0%", ou "Movimento detectado: Sim/Não".
 
 ## 📫 Contribuindo para a manutenção
 
