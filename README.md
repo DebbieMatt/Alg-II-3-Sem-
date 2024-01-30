@@ -187,7 +187,7 @@ O programa deve permitir ao usuário registrar a entrada de veículos, calcular 
 
 Além disso, inclua uma funcionalidade para listar todos os veículos atualmente presentes no estacionamento, exibindo suas informações.
 
-#### [Exercicio 14 (POR FAZER)]()
+#### [Exercicio 14 (INCOMPLETO)]()
 
 Imagine que você foi contratado(a) para desenvolver um sistema que irá gerenciar informações de funcionários e departamentos de uma empresa, onde um funcionário está associado a um departamento específico. Quando o departamento é atualizado, a mudança deve refletir em todos os funcionários associados a ele.
 
