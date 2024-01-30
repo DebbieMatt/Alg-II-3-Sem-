@@ -165,7 +165,7 @@ Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conju
 
 * a liberação do espaço de memória ocupado pelo vetor;
 
-#### [Exercicio 12]()
+#### [Exercicio 12](https://github.com/DebbieMatt/Alg_II/blob/5a0f1bbee1d884224162907b525634e051477adb/TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_01.c)
 
 Crie um programa em C que utilize uma struct para armazenar informações sobre um produto em um sistema de inventário. 
 
@@ -176,6 +176,14 @@ O programa deve permitir ao usuário adicionar novos produtos ao sistema, atuali
 Além disso, implemente uma função para calcular o valor total em estoque de um produto, multiplicando o preço pela quantidade disponível.
 
 #### [Exercicio 13]()
+
+Elabore um programa em C que utilize uma struct para gerenciar informações de veículos em um estacionamento. 
+
+A struct deve conter detalhes como placa do veículo, marca, modelo, cor e número de horas estacionado. 
+
+O programa deve permitir ao usuário registrar a entrada de veículos, calcular o custo do estacionamento com base nas horas estacionadas (defina uma tarifa por hora), e registrar a saída dos veículos. 
+
+Além disso, inclua uma funcionalidade para listar todos os veículos atualmente presentes no estacionamento, exibindo suas informações.
 
 #### [Exercicio 14]()
 
