@@ -95,23 +95,75 @@ int main(void)
         switch (opc)
         {
         case 1:
-            cadastrar(p, &pos);
+
+            if (pos < TAM)
+            {
+
+                cadastrar(p, &pos);
+                pos++;
+            }
+            else
+            {
+                printf("O inventario esta cheio\n");
+            }
             break;
 
         case 2:
-            printf("Digite qual vc quer editar:\n");
-            scanf("%d", &aux);
-            atualizar(p, pos, aux);
+
+            if (pos != 0)
+            {
+
+                printf("Qual posicao gostaria de atualizar? ");
+                scanf("%d", &aux);
+                if (aux < pos) // quer dizer q existe esse produto catalogado
+                {
+                    atualizar(p, pos, aux);
+                }
+                else
+                {
+                    printf("indice invalido\n");
+                }
+            }
+            else
+            {
+                printf("O inventario esta vazio\n");
+            }
             break;
 
         case 3:
-            imprimir(p, pos);
+
+            if (pos != 0)
+            {
+                imprimir(p, pos);
+            }
+            else
+            {
+                printf("O inventario esta vazio\n");
+            }
             break;
 
         case 4:
-            printf("Digite qual vc quer excluir:\n");
-            scanf("%d", &aux);
-            excluir(p, &pos, aux);
+
+            if (pos != 0)
+            {
+
+                printf("Qual posicao gostaria de excluir? ");
+                scanf("%d", &aux);
+
+                if (aux < pos)
+                {
+
+                    excluir(p, &pos, aux);
+                }
+                else
+                {
+                    printf("indice invalido\n");
+                }
+            }
+            else
+            {
+                printf("O inventario esta vazio\n");
+            }
             break;
         }
     } while (opc != -1);
