@@ -1,0 +1,1 @@
+// Quais diferenças existem entre a alocação estatica e dinâmica de um vetor? Existe uma abordagem mais vantajosa que a outra?
