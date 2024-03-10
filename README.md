@@ -211,7 +211,7 @@ O programa deve permitir o cadastro de novos sensores, dando ao usuário a opç�
 
 ### Manipulação de Arquivos em C
 
-> Manipulação de Arquivos de texto e arquivos binários e Funções / Procedimentos de leitura e escrita de aquivos de texto e binários.
+> Funções / Procedimentos de leitura e escrita de aquivos de texto e binários.
 
 #### [Exercicio 01] ()
 
