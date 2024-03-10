@@ -121,9 +121,9 @@ Elabore as operações usando exclusivamente aritmética de ponteiros para perco
 
 Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser escolhido por você. Usando exclusivamente a aritmética de ponteiros, o programa deve percorrer e calcular o produto da diagonal principal, bem como produto da diagonal secundária.
 
-### Ponteiros Genéricos (void) e Múltiplos, Malloc e Calloc, Alocação Dinâmica de Memória: Vetores e Matrizes
+### Manipulação de Ponteiros
 
-> 
+> Ponteiros Genéricos (void) e Múltiplos, Malloc e Calloc, Alocação Dinâmica de Memória: Vetores e Matrizes.
 
 #### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/662120258cea1293fead3882e9d2abb8b5e89c20/PONTEIROS/UNID.01_ATV_08.c)
 
@@ -166,6 +166,13 @@ Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conju
 * a liberação do espaço de memória ocupado pelo vetor;
 
 ### Typedef Struct, Union e Enumerador 
+
+> Os tipos `enumerados` são classificados como um dos tipos básicos;
+
+> O `struct` e `union` são tipos derivados, o que significa que você pode ter um `struct` ou `union`, e conter outros objetos;
+
+> A `struct` é um tipo agregado (assim como um `array`), mas `union` é um tipo próprio. E `enum` como tipo escalar - não contém instâncias de outros objetos.
+
 
 #### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/9d4779da431f9945831471dc56cc3ce42ec98b64/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_01.c)
 
