@@ -213,7 +213,22 @@ O programa deve permitir o cadastro de novos sensores, dando ao usuário a opç�
 
 > Manipulação de Arquivos de texto e arquivos binários e Funções / Procedimentos de leitura e escrita de aquivos de texto e binários.
 
-#### [Exercicio 01]
+#### [Exercicio 01] ()
+
+Roberval, aquele um estudante de Controle e Automação que queria criar um sistema controle de luzes de uma casa, está de volta. Agora, ele pretende melhorar o sistema desenvolvido, colocando uma “memória”, que considera o estado da lâmpada após a execução anterior do programa. 
+Por exemplo: se o programa anterior terminou com a lâmpada ligada, em uma nova execução, essa informação deve ser considerada.
+
+`Para relembrar: Roberval criou procedimentos para ligar e desligar as luzes. Um terceiro procedimento, que simula um interruptor, recebia os endereços de memória dos procedimentos ligar e desligar. Se a lâmpada estava desligada, o procedimento a ligava quando acionado. Da mesma forma, se ela estivesse desligada, o procedimento desligava a luz. O procedimento interruptor acionava os anteriores usando ponteiros. [Clique aqui para visualizar o exercício anterior]().`
+
+#### [Exercicio 02] ()
+
+João está desenvolvendo um programa para trocar mensagens com seus amigos usando arquivos de texto. A intenção dele é fazer com que as outras pessoas não entendam o conteúdo dos arquivos, mesmo tendo acesso a eles. 
+Para isso, ele resolveu fazer a seguinte brincadeira: ao iniciar o programa, o usuário deve selecionar uma das seguintes opções em um menu: escrever ou ler mensagem. Optando por escrever uma mensagem, o usuário deve informar uma frase de até 100 caracteres e um número inteiro Não entre 1 e 5. 
+Lidas as opções, o programa deve armazenar a frase digitada em um arquivo, pulando n casas a cada caractere. Da mesma forma, quando a opção de leitura for selecionada, o programa deve solicitar: um inteiro negativo, entre 1 e 5, imprimindo a mensagem decodificada. 
+
+#### [Exercicio 03] ()
+
+Elabore um programa em C para gerenciar o registro de veículos de uma concessionária. Use uma struct chamada Veiculo contendo variáveis para modelo, marca, ano de fabricação, cor e preço. Guarde vários registros de veículos em um vetor dessa struct. Implemente funções para salvar os registros em um arquivo e carregá-los quando o programa for iniciado. Desenvolva uma interface de usuário simples para adicionar novos veículos, exibir todos os registros e atualizar os dados salvos.
 
 ## 📫 Contribuindo para a manutenção
 
