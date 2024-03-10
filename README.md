@@ -81,11 +81,11 @@ Ao final, imprima os valores de salário reajustados.
 
 > Aritmética de ponteiros (operações de adição e subtração com endereços de memória), acessar valores em vetores e matrizes com ponteiros.
 
-#### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/2b809813961e2f9929de2947287335964f5f299c/PONTEIROS/UNID.01_ATV_04.c)
+#### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/2b809813961e2f9929de2947287335964f5f299c/PONTEIROS/UNID.01_ATV_04.c)
 
 Crie um programa contendo dois vetores (A e B), de tamanho igual, cujos valores foram lidos do teclado. Em seguida, implemente uma função que recebe esses vetores e troque os valores do vetor A com os valores do vetor B. Use aritmética de ponteiros para efetuar essas operações.
 
-#### [Exercicio 05](https://github.com/DebbieMatt/Alg_II/blob/4aa95ef573439409a5ef5688460644b4e3c27708/PONTEIROS/UNID.01_ATV_05.c)
+#### [Exercicio 02](https://github.com/DebbieMatt/Alg_II/blob/4aa95ef573439409a5ef5688460644b4e3c27708/PONTEIROS/UNID.01_ATV_05.c)
 
 Crie um programa contendo três vetores (A, B e C), de tamanho igual. Para os vetores A e B, os valores devem ser lidos do teclado. 
 
@@ -93,7 +93,7 @@ Em seguida, implemente uma função que recebe os três vetores. Cada posição 
 
 Use aritmética de ponteiros para efetuar essas operações. 
 
-#### [Exercicio 06](https://github.com/DebbieMatt/Alg_II/blob/312395a5ed3b3fcca30d546a12d83213342a58d2/PONTEIROS/UNID.01_ATV_06.c)
+#### [Exercicio 03](https://github.com/DebbieMatt/Alg_II/blob/312395a5ed3b3fcca30d546a12d83213342a58d2/PONTEIROS/UNID.01_ATV_06.c)
 
 Escreva um programa com um vetor de tamanho N (informado pelo usuário via teclado), com dados de tipo inteiro ou ponto flutuante (a seu critério), também informados pelo usuário final via teclado. 
 
@@ -117,7 +117,7 @@ Considere a matriz de saída:
 
 Elabore as operações usando exclusivamente aritmética de ponteiros para percorrer o vetor e a matriz.
 
-#### [Exercicio 07](https://github.com/DebbieMatt/Alg_II/blob/312395a5ed3b3fcca30d546a12d83213342a58d2/PONTEIROS/UNID.01_ATV_07.c)
+#### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/312395a5ed3b3fcca30d546a12d83213342a58d2/PONTEIROS/UNID.01_ATV_07.c)
 
 Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser escolhido por você. Usando exclusivamente a aritmética de ponteiros, o programa deve percorrer e calcular o produto da diagonal principal, bem como produto da diagonal secundária.
 
@@ -125,7 +125,7 @@ Escreva um programa em C que contém uma matriz N por N. O tamanho pode ser esco
 
 > 
 
-#### [Exercicio 08](https://github.com/DebbieMatt/Alg_II/blob/662120258cea1293fead3882e9d2abb8b5e89c20/PONTEIROS/UNID.01_ATV_08.c)
+#### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/662120258cea1293fead3882e9d2abb8b5e89c20/PONTEIROS/UNID.01_ATV_08.c)
 
 Analise o fragmento de código a seguir:
 
@@ -137,7 +137,7 @@ void **ptr2 = (void **) &ptr1;
 
 Qual operação pode ser feita para, a partir de ptr2, se chegar ao valor da variável a?
 
-#### [Exercicio 09 (POR FAZER)]()
+#### [Exercicio 02 (POR FAZER)]()
 
 Roberval é um estudante de Controle e Automação que deseja criar um sistema controle de luzes de uma casa. Para começar, ele pretende criar procedimentos para ligar e desligar as luzes.
 
@@ -145,13 +145,13 @@ Um terceiro procedimento, que simula um interruptor, recebe os endereços de mem
 
 O procedimento interruptor deve acionar os anteriores usando ponteiros.
 
-#### [Exercicio 10 (POR FAZER)]()
+#### [Exercicio 03 (POR FAZER)]()
 
 João implementou dois procedimentos em seu programa, um para verificar se um número é divisível por 3, outro para multiplicar o valor recebido por 10. Ambos os procedimentos recebem um número inteiro com parâmetro e não retornam valores, apenas exibem o resultado na tela.
 
 João deseja criar um vetor com ponteiros para esses procedimentos para, em seguida, passar o vetor como parâmetro para um procedimento especial. Este último procedimento acionará os procedimentos recebidos como parâmetro para um conjunto de números inteiros determinados localmente.
 
-#### [Exercicio 11 (POR FAZER)]()
+#### [Exercicio 04 (POR FAZER)]()
 
 Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conjunto de funções/procedimentos para facilitar a criação de vetores alocados dinamicamente na memória, oferecendo recursos que possibilitem:
 
@@ -167,7 +167,7 @@ Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conju
 
 ### Typedef Struct, Union e Enumerador 
 
-#### [Exercicio 12](https://github.com/DebbieMatt/Alg_II/blob/9d4779da431f9945831471dc56cc3ce42ec98b64/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_01.c)
+#### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/9d4779da431f9945831471dc56cc3ce42ec98b64/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_01.c)
 
 Crie um programa em C que utilize uma struct para armazenar informações sobre um produto em um sistema de inventário. 
 
@@ -177,7 +177,7 @@ O programa deve permitir ao usuário adicionar novos produtos ao sistema, atuali
 
 Além disso, implemente uma função para calcular o valor total em estoque de um produto, multiplicando o preço pela quantidade disponível.
 
-#### [Exercicio 13](https://github.com/DebbieMatt/Alg_II/blob/9d4779da431f9945831471dc56cc3ce42ec98b64/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_02.c)
+#### [Exercicio 02](https://github.com/DebbieMatt/Alg_II/blob/9d4779da431f9945831471dc56cc3ce42ec98b64/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_02.c)
 
 Elabore um programa em C que utilize uma struct para gerenciar informações de veículos em um estacionamento. 
 
@@ -187,7 +187,7 @@ O programa deve permitir ao usuário registrar a entrada de veículos, calcular 
 
 Além disso, inclua uma funcionalidade para listar todos os veículos atualmente presentes no estacionamento, exibindo suas informações.
 
-#### [Exercicio 14 (INCOMPLETO)](https://github.com/DebbieMatt/Alg_II/blob/a2a3745139ee4955b9b6ebbe5a83bfa0a6dd39cf/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_03.c)
+#### [Exercicio 03 (INCOMPLETO)](https://github.com/DebbieMatt/Alg_II/blob/a2a3745139ee4955b9b6ebbe5a83bfa0a6dd39cf/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_03.c)
 
 Imagine que você foi contratado(a) para desenvolver um sistema que irá gerenciar informações de funcionários e departamentos de uma empresa, onde um funcionário está associado a um departamento específico. Quando o departamento é atualizado, a mudança deve refletir em todos os funcionários associados a ele.
 
@@ -195,11 +195,18 @@ Para o departamento, devem ser armazenados o nome e o código. Para o funcionár
 
 O usuário deve ter a possibilidade cadastrar, listar e atualizar tanto os departamentos quanto os dados dos funcionários.
 
-#### [Exercicio 15 (INCOMPLETO)](https://github.com/DebbieMatt/Alg_II/blob/5b6285d2fc05fbfc88f86bf25694278c2d728d7f/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_04.c)
+#### [Exercicio 04 (INCOMPLETO)](https://github.com/DebbieMatt/Alg_II/blob/5b6285d2fc05fbfc88f86bf25694278c2d728d7f/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_04.c)
 
 Estudantes da Faculdade de Engenharia estão desenvolvendo um programa em C para um sistema de automação residencial que integra diferentes tipos de sensores: temperatura (float), luminosidade (float) e movimento (int ou bool), cada um medindo um aspecto específico do ambiente. Implemente uma estrutura de dados eficiente em termos de memória para armazenar as informações desses sensores.
 
 O programa deve permitir o cadastro de novos sensores, dando ao usuário a opção de escolher o tipo de sensor e inserir os dados correspondentes. Além disso, o programa deve ser capaz de exibir informações de todos os sensores cadastrados, com descrições apropriadas, como "Temperatura: 23.5°C", "Luminosidade: 75.0%", ou "Movimento detectado: Sim/Não".
+
+
+### Manipulação de Arquivos em C
+
+> Manipulação de Arquivos de texto e arquivos binários e Funções / Procedimentos de leitura e escrita de aquivos de texto e binários.
+
+#### [Exercicio 01]
 
 ## 📫 Contribuindo para a manutenção
 
