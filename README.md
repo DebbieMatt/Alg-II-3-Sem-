@@ -137,7 +137,7 @@ void **ptr2 = (void **) &ptr1;
 
 Qual operação pode ser feita para, a partir de ptr2, se chegar ao valor da variável a?
 
-#### [Exercicio 02](https://github.com/DebbieMatt/Alg_II/blob/6d3b1951ee39eb3c76c405ea9a4a925e90d88973/UNID.%201%20-%20MEM%C3%93RIA/UNID.01_ATV_10.c)
+#### [Exercicio 02](https://github.com/DebbieMatt/Alg_II/blob/74a9def4a464562218ce6d26168ac7c18d6c84d7/UNID.%201%20-%20MEM%C3%93RIA/UNID.01_ATV_10.c)
 
 Roberval é um estudante de Controle e Automação que deseja criar um sistema controle de luzes de uma casa. Para começar, ele pretende criar procedimentos para ligar e desligar as luzes.
 
@@ -151,7 +151,7 @@ João implementou dois procedimentos em seu programa, um para verificar se um n�
 
 João deseja criar um vetor com ponteiros para esses procedimentos para, em seguida, passar o vetor como parâmetro para um procedimento especial. Este último procedimento acionará os procedimentos recebidos como parâmetro para um conjunto de números inteiros determinados localmente.
 
-#### [Exercicio 04 (POR FAZER)]()
+#### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/74a9def4a464562218ce6d26168ac7c18d6c84d7/UNID.%201%20-%20MEM%C3%93RIA/UNID.01_ATV_12.c)
 
 Uma estudante de Algoritmos e Estrutura de Dados II deseja implementar com conjunto de funções/procedimentos para facilitar a criação de vetores alocados dinamicamente na memória, oferecendo recursos que possibilitem:
 
