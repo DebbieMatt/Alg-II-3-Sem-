@@ -213,7 +213,7 @@ O programa deve permitir o cadastro de novos sensores, dando ao usuário a opç�
 
 > Funções / Procedimentos de leitura e escrita de aquivos de texto e binários.
 
-#### [Exercicio 01] ()
+#### [Exercicio 01] (https://github.com/DebbieMatt/Alg_II/blob/12c720607987006863e6b682e26b65af966aa0fc/UNID.%203%20-%20MANIPULA%C3%87%C3%83O%20DE%20ARQUIVOS/UNID.03_ATV_01.c)
 
 Roberval, aquele um estudante de Controle e Automação que queria criar um sistema controle de luzes de uma casa, está de volta. Agora, ele pretende melhorar o sistema desenvolvido, colocando uma “memória”, que considera o estado da lâmpada após a execução anterior do programa. 
 Por exemplo: se o programa anterior terminou com a lâmpada ligada, em uma nova execução, essa informação deve ser considerada.
