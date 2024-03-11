@@ -239,6 +239,14 @@ Em um prédio de Cuiabá, há uma garagem estreita, porém comprida. Sua largura
 Atenção: Considere a implementação ESTÁTICA da estrutura.
 
 #### [Exercicio 02] ()
+
+Uma estudante de "Algoritmos e Estruturas de Dados II", fascinada com o conteúdo da disciplina, está criando um módulo de playlists para um aplicativo de música como o Spotify. Uma playlist, evidentemente, pode conter diversas músicas. Como no Spotify, músicas mais recentes são as primeiras a serem exibidas na lista. Para facilitar a vida dos usuários, ela deseja implementar o seguinte recurso em seu programa: uma opção de desfazer e refazer a inserção de músicas na playlist, que funciona da seguinte forma:
+
+* Se o usuário selecionar a opção desfazer, a última música inserida na playlist será removida;
+* Se o usuário selecionar a opção refazer, a último música excluída voltará para a playlist;
+
+Considere a implementação DINÂMICA da estrutura.
+
 #### [Exercicio 03] ()
 
 ## 📫 Contribuindo para a manutenção
