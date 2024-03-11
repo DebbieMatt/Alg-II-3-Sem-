@@ -249,6 +249,24 @@ Considere a implementação DINÂMICA da estrutura.
 
 #### [Exercicio 03] ()
 
+Você foi designado para desenvolver um sistema de atendimento para uma clínica médica. A clínica deseja organizar a fila de pacientes de forma eficiente, usando uma estrutura de dados adequada. Considere as seguintes informações:
+
+- Cada paciente é representado por um número de registro único e possui informações como nome, idade e motivo da consulta.
+- O sistema deve permitir a inserção de novos pacientes na fila de espera.
+- Quando um médico está disponível, o próximo paciente na fila é chamado para a consulta.
+- Durante a consulta, o médico registra o atendimento e libera o paciente, removendo-o da fila.
+- O sistema também deve permitir a consulta do próximo paciente na fila sem removê-lo, caso o médico queira antecipar a chamada.
+- O usuário deve ter a opção de encerrar o programa a qualquer momento.
+
+Sua tarefa é implementar esse sistema de atendimento utilizando uma fila dinâmica em C. Considere a necessidade de criar funções para realizar as seguintes operações:
+
+1. Inserir um novo paciente na fila.
+2. Chamar o próximo paciente para a consulta.
+3. Consultar as informações do próximo paciente sem removê-lo.
+4. Encerrar o programa.
+
+Lembre-se de gerenciar corretamente a alocação e liberação de memória. Além disso, crie um menu simples para que o usuário possa interagir com o sistema de atendimento. Considere a implementação estática, em que a fila armazena no máximo 10 pacientes. 
+
 ## 📫 Contribuindo para a manutenção
 
 Para contribuir com projeto final e nos auxiliar a continuar desenvolvendo melhor, aprimorando e torna-lo mais eficientes, siga estas etapas:
