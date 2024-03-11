@@ -232,7 +232,12 @@ Elabore um programa em C para gerenciar o registro de veículos de uma concessio
 
 ### Pilha, Fila e Lista
 
-#### [Exercicio 01] ()
+#### [Exercicio 01] (https://github.com/DebbieMatt/Alg_II/blob/0614a916fe9dff351e78b35a766759659b3ef542/UNID.4%20-%20PILHA%2C%20FILA%20E%20LISTA/UNID.04_ATV_01.c)
+
+Em um prédio de Cuiabá, há uma garagem estreita, porém comprida. Sua largura contém espaço suficiente para um único veículo, além da passagem para o motorista. Assim, os carros são estacionados um atrás do outro, sem exceção. Para remover um carro, é preciso que todos os demais sejam removidos também. Como o prédio não tem manobrista, em todas as manhãs o cenário é de correria e confusão. Para tentar agilizar o processo, o porteiro Ribamar implementou um sistema de informação que registra, para cada carro, a placa e o número do apartamento do proprietário. Quando um morador chega para retirar seu carro, ele informa a placa do seu veículo e o programa retorna: a quantidade de veículos a serem retirados primeiro, bem como o números dos apartamentos dos proprietários dos veículos envolvidos. Implemente esse programa em C, usando uma estrutura de dados adequada para essa finalidade.
+
+Atenção: Considere a implementação ESTÁTICA da estrutura.
+
 #### [Exercicio 02] ()
 #### [Exercicio 03] ()
 
