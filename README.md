@@ -230,6 +230,12 @@ Lidas as opções, o programa deve armazenar a frase digitada em um arquivo, pul
 
 Elabore um programa em C para gerenciar o registro de veículos de uma concessionária. Use uma struct chamada Veiculo contendo variáveis para modelo, marca, ano de fabricação, cor e preço. Guarde vários registros de veículos em um vetor dessa struct. Implemente funções para salvar os registros em um arquivo e carregá-los quando o programa for iniciado. Desenvolva uma interface de usuário simples para adicionar novos veículos, exibir todos os registros e atualizar os dados salvos.
 
+### Pilha, Fila e Lista
+
+#### [Exercicio 01] ()
+#### [Exercicio 02] ()
+#### [Exercicio 03] ()
+
 ## 📫 Contribuindo para a manutenção
 
 Para contribuir com projeto final e nos auxiliar a continuar desenvolvendo melhor, aprimorando e torna-lo mais eficientes, siga estas etapas:
