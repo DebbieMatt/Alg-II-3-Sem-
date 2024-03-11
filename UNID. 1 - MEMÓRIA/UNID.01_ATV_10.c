@@ -1,3 +1,5 @@
+// Autoria: Maria Vitória
+
 #include <stdio.h>
 #include <stdlib.h>
 
