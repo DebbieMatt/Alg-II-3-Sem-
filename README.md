@@ -213,7 +213,7 @@ O programa deve permitir o cadastro de novos sensores, dando ao usuário a opç�
 
 > Funções / Procedimentos de leitura e escrita de aquivos de texto e binários.
 
-#### [Exercicio 01] (https://github.com/DebbieMatt/Alg_II/blob/12c720607987006863e6b682e26b65af966aa0fc/UNID.%203%20-%20MANIPULA%C3%87%C3%83O%20DE%20ARQUIVOS/UNID.03_ATV_01.c)
+#### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/12c720607987006863e6b682e26b65af966aa0fc/UNID.%203%20-%20MANIPULA%C3%87%C3%83O%20DE%20ARQUIVOS/UNID.03_ATV_01.c)
 
 Roberval, aquele um estudante de Controle e Automação que queria criar um sistema controle de luzes de uma casa, está de volta. Agora, ele pretende melhorar o sistema desenvolvido, colocando uma “memória”, que considera o estado da lâmpada após a execução anterior do programa. 
 Por exemplo: se o programa anterior terminou com a lâmpada ligada, em uma nova execução, essa informação deve ser considerada.
@@ -226,13 +226,13 @@ João está desenvolvendo um programa para trocar mensagens com seus amigos usan
 Para isso, ele resolveu fazer a seguinte brincadeira: ao iniciar o programa, o usuário deve selecionar uma das seguintes opções em um menu: escrever ou ler mensagem. Optando por escrever uma mensagem, o usuário deve informar uma frase de até 100 caracteres e um número inteiro Não entre 1 e 5. 
 Lidas as opções, o programa deve armazenar a frase digitada em um arquivo, pulando n casas a cada caractere. Da mesma forma, quando a opção de leitura for selecionada, o programa deve solicitar: um inteiro negativo, entre 1 e 5, imprimindo a mensagem decodificada. 
 
-#### [Exercicio 03] (https://github.com/DebbieMatt/Alg_II/blob/8d341680576407f0b03f6fc2f68f6df699aee818/UNID.%203%20-%20MANIPULA%C3%87%C3%83O%20DE%20ARQUIVOS/UNID.03_ATV_03.c)
+#### [Exercicio 03](https://github.com/DebbieMatt/Alg_II/blob/8d341680576407f0b03f6fc2f68f6df699aee818/UNID.%203%20-%20MANIPULA%C3%87%C3%83O%20DE%20ARQUIVOS/UNID.03_ATV_03.c)
 
 Elabore um programa em C para gerenciar o registro de veículos de uma concessionária. Use uma struct chamada Veiculo contendo variáveis para modelo, marca, ano de fabricação, cor e preço. Guarde vários registros de veículos em um vetor dessa struct. Implemente funções para salvar os registros em um arquivo e carregá-los quando o programa for iniciado. Desenvolva uma interface de usuário simples para adicionar novos veículos, exibir todos os registros e atualizar os dados salvos.
 
 ### Pilha, Fila e Lista
 
-#### [Exercicio 01] (https://github.com/DebbieMatt/Alg_II/blob/0614a916fe9dff351e78b35a766759659b3ef542/UNID.4%20-%20PILHA%2C%20FILA%20E%20LISTA/UNID.04_ATV_01.c)
+#### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/0614a916fe9dff351e78b35a766759659b3ef542/UNID.4%20-%20PILHA%2C%20FILA%20E%20LISTA/UNID.04_ATV_01.c)
 
 Em um prédio de Cuiabá, há uma garagem estreita, porém comprida. Sua largura contém espaço suficiente para um único veículo, além da passagem para o motorista. Assim, os carros são estacionados um atrás do outro, sem exceção. Para remover um carro, é preciso que todos os demais sejam removidos também. Como o prédio não tem manobrista, em todas as manhãs o cenário é de correria e confusão. Para tentar agilizar o processo, o porteiro Ribamar implementou um sistema de informação que registra, para cada carro, a placa e o número do apartamento do proprietário. Quando um morador chega para retirar seu carro, ele informa a placa do seu veículo e o programa retorna: a quantidade de veículos a serem retirados primeiro, bem como o números dos apartamentos dos proprietários dos veículos envolvidos. Implemente esse programa em C, usando uma estrutura de dados adequada para essa finalidade.
 
