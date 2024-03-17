@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -5,7 +6,7 @@
 
 typedef struct
 {
-    char codigo[6];
+    char nome[50];
     int ape;
 } REGISTRO;
 
@@ -22,7 +23,6 @@ void inicializarPilha(PILHA *p)
 
 void inserir(PILHA *p, REGISTRO r)
 {
-
     if (p->topo < TAM)
     {
         p->registros[p->topo] = r;
@@ -33,6 +33,7 @@ void inserir(PILHA *p, REGISTRO r)
         printf("Pilha cheia!\n");
     }
 }
+
 void remover(PILHA *p)
 {
     if (p->topo > 0)
@@ -40,13 +41,15 @@ void remover(PILHA *p)
         p->topo--;
     }
 }
+
 void imprimir(PILHA p)
 {
     for (int i = p.topo - 1; i >= 0; i--)
     {
-        printf("%d. Placa:%s | Apartamento:%d\n ", i, p.registros[i].codigo, p.registros[i].ape);
+        printf("%d. Nome:%s | Apartamento:%d\n ", i, p.registros[i].nome, p.registros[i].ape);
     }
 }
+
 int main(void)
 {
     PILHA p;
@@ -57,4 +60,5 @@ int main(void)
     remover(&p);
     inserir(&p, (REGISTRO){"Mateus", 715});
     imprimir(p);
+    return 0;
 }
