@@ -220,7 +220,7 @@ Por exemplo: se o programa anterior terminou com a lâmpada ligada, em uma nova 
 
 `Para relembrar: Roberval criou procedimentos para ligar e desligar as luzes. Um terceiro procedimento, que simula um interruptor, recebia os endereços de memória dos procedimentos ligar e desligar. Se a lâmpada estava desligada, o procedimento a ligava quando acionado. Da mesma forma, se ela estivesse desligada, o procedimento desligava a luz. O procedimento interruptor acionava os anteriores usando ponteiros. [Clique aqui para visualizar o exercício anterior]().`
 
-#### [Exercicio 02 (POR FAZER)] ()
+#### [Exercicio 02] (https://github.com/DebbieMatt/Alg_II/blob/d2a6351309e70dc013715253e2d180badf542300/UNID.%203%20-%20MANIPULA%C3%87%C3%83O%20DE%20ARQUIVOS/UNID.03_ATV_02.c)
 
 João está desenvolvendo um programa para trocar mensagens com seus amigos usando arquivos de texto. A intenção dele é fazer com que as outras pessoas não entendam o conteúdo dos arquivos, mesmo tendo acesso a eles. 
 Para isso, ele resolveu fazer a seguinte brincadeira: ao iniciar o programa, o usuário deve selecionar uma das seguintes opções em um menu: escrever ou ler mensagem. Optando por escrever uma mensagem, o usuário deve informar uma frase de até 100 caracteres e um número inteiro Não entre 1 e 5. 
