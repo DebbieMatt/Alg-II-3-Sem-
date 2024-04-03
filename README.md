@@ -271,6 +271,12 @@ Lembre-se de gerenciar corretamente a alocação e liberação de memória. Alé
 
 > Bubble SortURL, Insertion sortURL, Selection sortURL, Quick SortURL, Merge SortURL.
 
+- **Pilha**: É uma estrutura de dados que segue o princípio LIFO (Last In, First Out), ou seja, o último elemento a ser inserido é o primeiro a ser removido. As operações principais são `push` (inserir um elemento no topo da pilha) e `pop` (remover o elemento do topo da pilha).
+
+- **Fila**: É uma estrutura de dados que segue o princípio FIFO (First In, First Out), ou seja, o primeiro elemento a ser inserido é o primeiro a ser removido. As operações principais são `enqueue` (inserir um elemento no final da fila) e `dequeue` (remover o elemento do início da fila).
+
+- **Lista**: É uma estrutura de dados que pode conter zero ou mais elementos, que estão ligados em uma sequência. As listas podem ser implementadas de várias maneiras, como listas ligadas, listas duplamente ligadas, listas circulares, etc. As operações principais são `inserir` (inserir um elemento em uma posição específica), `remover` (remover um elemento de uma posição específica) e `buscar` (encontrar um elemento na lista).
+
 #### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/d67cfb45845688e287ed0a09ed284cc204799d49/UNID.5-ALGORITMO%20DE%20ORDENA%C3%87%C3%83O/UNID.05_ATV_01.c)
 
 Os algoritmos de ordenação utilizam uma variável chave para ordenar um vetor. Em geral, para fins didáticos, trabalha-se com uma variável do tipo int como este atributo. Escolha, dentre os algoritmos de ordenação apresentados na aula anterior, um para adaptar. O algoritmo, após o seu ajuste, deve ser capaz de ordenar strings.
