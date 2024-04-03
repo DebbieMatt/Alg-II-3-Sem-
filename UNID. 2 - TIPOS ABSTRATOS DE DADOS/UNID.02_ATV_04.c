@@ -1,116 +1,71 @@
 #include <stdio.h>
-#include <stdbool.h>
 
+// Definindo os tipos de sensores
 typedef enum
 {
-    TEMPERATURA,
-    LUMINOSIDADE,
-    MOVIMENTO
-} TipoSensor;
+    TEMPERATURE,
+    LIGHT,
+    MOVEMENT
+} SensorType;
 
+// Definindo a estrutura do sensor
 typedef struct
 {
-    TipoSensor tipo;
+    SensorType type;
     union
     {
-        float temperatura;
-        float luminosidade;
-        bool movimento;
-    } dados;
+        float temperature;
+        float light;
+        int movement;
+    } data;
 } Sensor;
 
-void cadastrarSensor(Sensor *sensores, int *totalSensores)
+// Função para cadastrar um novo sensor
+void registerSensor(Sensor *sensor, SensorType type, float data)
 {
-    int tipo;
-
-    Sensor novoSensor;
-    novoSensor.tipo = tipo - 1;
-
-    printf("Escolha o tipo de sensor:\n");
-    printf("1 - Temperatura\n");
-    printf("2 - Luminosidade\n");
-    printf("3 - Movimento\n");
-    scanf("%d", &tipo);
-
-    if (tipo < 1 || tipo > 3)
+    sensor->type = type;
+    switch (type)
     {
-        printf("Opção inválida.\n");
-        return;
-    }
-
-    switch (novoSensor.tipo)
-    {
-    case TEMPERATURA:
-        printf("Digite a temperatura em graus Celsius: ");
-        scanf("%f", &novoSensor.dados.temperatura);
+    case TEMPERATURE:
+        sensor->data.temperature = data;
         break;
-    case LUMINOSIDADE:
-        printf("Digite a luminosidade em porcentagem: ");
-        scanf("%f", &novoSensor.dados.luminosidade);
+    case LIGHT:
+        sensor->data.light = data;
         break;
-    case MOVIMENTO:
-        printf("Movimento detectado? (1 para Sim, 0 para Não): ");
-        scanf("%d", &novoSensor.dados.movimento);
-        break;
-    default:
+    case MOVEMENT:
+        sensor->data.movement = (int)data;
         break;
     }
-
-    sensores[*totalSensores] = novoSensor;
-    (*totalSensores)++;
-    printf("Sensor cadastrado com sucesso.\n");
 }
 
-void exibirSensores(Sensor *sensores, int totalSensores)
+// Função para exibir as informações do sensor
+void displaySensorInfo(Sensor sensor)
 {
-
-    if (totalSensores == 0)
+    switch (sensor.type)
     {
-        printf("Nenhum sensor cadastrado.\n");
-        return;
-    }
-
-    for (int i = 0; i < totalSensores; i++)
-    {
-        switch (sensores[i].tipo)
-        {
-        case TEMPERATURA:
-            printf("Temperatura: %.2f°C\n", sensores[i].dados.temperatura);
-            break;
-        case LUMINOSIDADE:
-            printf("Luminosidade: %.2f%%\n", sensores[i].dados.luminosidade);
-            break;
-        case MOVIMENTO:
-            printf("Movimento detectado: %s\n", sensores[i].dados.movimento ? "Sim" : "Não");
-            break;
-        default:
-            break;
-        }
+    case TEMPERATURE:
+        printf("Temperatura: %.1f°C\n", sensor.data.temperature);
+        break;
+    case LIGHT:
+        printf("Luminosidade: %.1f%%\n", sensor.data.light);
+        break;
+    case MOVEMENT:
+        printf("Movimento detectado: %s\n", sensor.data.movement ? "Sim" : "Não");
+        break;
     }
 }
 
 int main()
 {
+    Sensor sensors[10];
+    registerSensor(&sensors[0], TEMPERATURE, 23.5);
+    registerSensor(&sensors[1], LIGHT, 75.0);
+    registerSensor(&sensors[2], MOVEMENT, 1);
 
-    int totalSensores = 0, opcao;
-    Sensor sensores[100];
-
-    do
+    for (int i = 0; i < 3; i++)
     {
-        printf("\n1 - Cadastrar sensor\n");
-        printf("2 - Exibir sensores\n");
-        printf("0 - Sair\n");
-        printf("Escolha uma opção: ");
-        scanf("%d", &opcao);
+        displaySensorInfo(sensors[i]);
+    }
 
-        switch (opcao)
-        {
-        case 1:
-            cadastrarSensor(sensores, &totalSensores);
-            break;
-        case 2:
-            exibirSensores(sensores, totalSensores);
-            break;
-        }
-    } while (opcao != -1);
+    return 0;
 }
