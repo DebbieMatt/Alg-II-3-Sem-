@@ -247,7 +247,7 @@ Uma estudante de "Algoritmos e Estruturas de Dados II", fascinada com o conteúd
 
 Considere a implementação DINÂMICA da estrutura.
 
-#### [Exercicio 03]()
+#### [Exercicio 03](https://github.com/DebbieMatt/Alg_II/blob/5aa9185a7790105b8db40095f04649caa0be24a1/UNID.4%20-%20PILHA%2C%20FILA%20E%20LISTA/UNID.04_ATV_03.c)
 
 Você foi designado para desenvolver um sistema de atendimento para uma clínica médica. A clínica deseja organizar a fila de pacientes de forma eficiente, usando uma estrutura de dados adequada. Considere as seguintes informações:
 
