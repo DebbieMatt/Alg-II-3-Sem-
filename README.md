@@ -291,11 +291,11 @@ Considere um programa de cadastro (de produtos, clientes, veículos, etc) que co
 * Listar por valor ou quantidade em ordem decrescente;
 * Excluir um item.
 
-#### [Exercicio 03]()
+#### [Exercicio 03](https://github.com/DebbieMatt/Alg_II/blob/3669c8926270cbc26ff73da9d8dd3189d681c671/UNID.5-ALGORITMO%20DE%20ORDENA%C3%87%C3%83O/UNID.05_ATV_03.c)
 
 Implemente um algoritmo recursivo que desempilha todos os itens de uma pilha (com, no mínimo, 10 itens) e retorna a soma da chave dos registros. O programa deve imprimir o valor retornado. 
 
-#### [Exercicio 04]()
+#### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/3669c8926270cbc26ff73da9d8dd3189d681c671/UNID.5-ALGORITMO%20DE%20ORDENA%C3%87%C3%83O/UNID.05_ATV_04.c)
 
 Adapte o algoritmo Quick Sort para que a ordenação seja feita em ordem decrescente, não em ordem crescente.
 
