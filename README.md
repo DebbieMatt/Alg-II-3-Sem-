@@ -194,7 +194,7 @@ O programa deve permitir ao usuário registrar a entrada de veículos, calcular 
 
 Além disso, inclua uma funcionalidade para listar todos os veículos atualmente presentes no estacionamento, exibindo suas informações.
 
-#### [Exercicio 03 (INCOMPLETO)](https://github.com/DebbieMatt/Alg_II/blob/a2a3745139ee4955b9b6ebbe5a83bfa0a6dd39cf/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_03.c)
+#### [Exercicio 03](https://github.com/DebbieMatt/Alg_II/blob/a2a3745139ee4955b9b6ebbe5a83bfa0a6dd39cf/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_03.c)
 
 Imagine que você foi contratado(a) para desenvolver um sistema que irá gerenciar informações de funcionários e departamentos de uma empresa, onde um funcionário está associado a um departamento específico. Quando o departamento é atualizado, a mudança deve refletir em todos os funcionários associados a ele.
 
@@ -202,7 +202,7 @@ Para o departamento, devem ser armazenados o nome e o código. Para o funcionár
 
 O usuário deve ter a possibilidade cadastrar, listar e atualizar tanto os departamentos quanto os dados dos funcionários.
 
-#### [Exercicio 04 (INCOMPLETO)](https://github.com/DebbieMatt/Alg_II/blob/5b6285d2fc05fbfc88f86bf25694278c2d728d7f/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_04.c)
+#### [Exercicio 04](https://github.com/DebbieMatt/Alg_II/blob/f8cf03975c4472bcebb5563213f9adeda54399ed/UNID.%202%20-%20TIPOS%20ABSTRATOS%20DE%20DADOS/UNID.02_ATV_04.c)
 
 Estudantes da Faculdade de Engenharia estão desenvolvendo um programa em C para um sistema de automação residencial que integra diferentes tipos de sensores: temperatura (float), luminosidade (float) e movimento (int ou bool), cada um medindo um aspecto específico do ambiente. Implemente uma estrutura de dados eficiente em termos de memória para armazenar as informações desses sensores.
 
