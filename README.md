@@ -267,6 +267,38 @@ Sua tarefa é implementar esse sistema de atendimento utilizando uma fila dinâm
 
 Lembre-se de gerenciar corretamente a alocação e liberação de memória. Além disso, crie um menu simples para que o usuário possa interagir com o sistema de atendimento. Considere a implementação estática, em que a fila armazena no máximo 10 pacientes. 
 
+### Algoritmos de Ordenação
+
+> Bubble SortURL, Insertion sortURL, Selection sortURL, Quick SortURL, Merge SortURL.
+
+#### [Exercicio 01](https://github.com/DebbieMatt/Alg_II/blob/d67cfb45845688e287ed0a09ed284cc204799d49/UNID.5-ALGORITMO%20DE%20ORDENA%C3%87%C3%83O/UNID.05_ATV_01.c)
+
+Os algoritmos de ordenação utilizam uma variável chave para ordenar um vetor. Em geral, para fins didáticos, trabalha-se com uma variável do tipo int como este atributo. Escolha, dentre os algoritmos de ordenação apresentados na aula anterior, um para adaptar. O algoritmo, após o seu ajuste, deve ser capaz de ordenar strings.
+
+Entrada	            Saída
+RONDONOPOLIS	AMORINOPOLIS
+CUIABA	        CUIABA
+AMORINOPOLIS	DIORAMA
+DIORAMA	        RONDONOPOLIS
+
+#### [Exercicio 02](https://github.com/DebbieMatt/Alg_II/blob/d67cfb45845688e287ed0a09ed284cc204799d49/UNID.5-ALGORITMO%20DE%20ORDENA%C3%87%C3%83O/UNID.05_ATV_02.c)
+
+Considere um programa de cadastro (de produtos, clientes, veículos, etc) que contém, no mínimo, 10 registros alocados de forma estática na memória. Cada registro deve conter, no mínimo, três variáveis. O programa deve exibir um menu de opções ao usuário, com as seguintes funcionalidades:
+
+* Cadastrar um novo item;
+* Listar por nome em ordem crescente;
+* Listar por valor ou quantidade em ordem crescente;
+* Listar por valor ou quantidade em ordem decrescente;
+* Excluir um item.
+
+#### [Exercicio 03]()
+
+Implemente um algoritmo recursivo que desempilha todos os itens de uma pilha (com, no mínimo, 10 itens) e retorna a soma da chave dos registros. O programa deve imprimir o valor retornado. 
+
+#### [Exercicio 04]()
+
+Adapte o algoritmo Quick Sort para que a ordenação seja feita em ordem decrescente, não em ordem crescente.
+
 ## 📫 Contribuindo para a manutenção
 
 Para contribuir com projeto final e nos auxiliar a continuar desenvolvendo melhor, aprimorando e torna-lo mais eficientes, siga estas etapas:
